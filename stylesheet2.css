@@ -1,0 +1,43 @@
+h1 {
+ 	text-align: center;
+ 	font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+ 	color: black;
+ 	text-decoration: underline; 
+ 	text-decoration: overline;
+ 	
+ 	
+
+ }
+
+ h2 {
+ 	text-align: center;
+ 	font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+ 	color: black;
+ 	font-size: 30px;
+ 	
+
+ }
+ body {
+ 	color: white;
+
+ }
+
+img {
+	border: 5px solid black;
+}
+p{
+	color: black;
+	text-align: center;
+	border: 5px solid plum;
+	box-shadow: 0 0 5px 2px magenta;
+	font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+}
+
+h3 {
+	text-align: center;
+	color: black;
+	font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+	font-size: 30px;
+	
+
+}
