@@ -1,48 +1,39 @@
- h1 {
-     text-align: center;
-     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
-     color: black;
- }
- 
- a {
-     color: black;
-     text-decoration-line: none;
- }
- 
- img {
-     align-items: center;
- }
- 
- body {
-     font-size: 15px;
-     background-color: pink;
- }
- 
- .card-holder {
-     margin: 2em 0;
- }
- 
- .card {
-     font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
-     font-size: 3em;
-     font-weight: 800;
-     height: 4em;
-     width: 64em;
-     padding: 0.5em 1em;
-     border-radius: 0.25em;
-     display: table-cell;
-     vertical-align: middle;
-     letter-spacing: -2px;
-     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
- }
- 
- .card .subtle {
-     color: #000;
-     font-size: 0.5em;
-     font-weight: 400;
-     letter-spacing: -1px;
- }
- 
- .card i {
-     font-size: 3em;
- }
+        h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', sans-serif;
+    color: blue;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    list-style-type: none;
+    li {
+        padding: 6px 0;
+        a {
+            --fill-color: #198CE6;
+            position: relative;
+            display: block;
+            padding: 4px 0;
+            font: 700 3rem Raleway, sans-serif;
+            text-decoration: none;
+            text-transform: uppercase;
+            -webkit-text-stroke: 2px var(--fill-color);
+            background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+            color: transparent;
+            background-clip: text;
+            transition: 0.5s linear;
+        }
+        #GFG {
+            text-decoration: none;
+        }
