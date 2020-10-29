@@ -3,7 +3,10 @@ h1 {
     color: #173f5f;
     background-color: #f6d55c;
     padding: 7px;
+    font-size: 25px;
 }
+
+h4 {}
 
 p {
     background-color: #f6d55c;
@@ -67,19 +70,16 @@ body {
 }
 
 hr {
-    /*dummy content*/
     height: 6px;
     border: none;
     background: rgba(0, 0, 0, 0.1);
 }
 
 hr:last-child {
-    /*dummy content*/
     margin-right: 60%;
 }
 
 hr.image {
-    /*dummy content*/
     padding-bottom: 50%;
 }
 
@@ -120,9 +120,6 @@ p2 {
     color: #173f5f;
 }
 
-
-/* Extra-wide grid-posts */
-
 .article:nth-child(31n + 1) {
     grid-column: 1 / -1;
 }
@@ -131,16 +128,34 @@ p2 {
     grid-column: -3 / -1;
 }
 
-.article:nth-child(16n + 10) {
+.article:nth-child(16n + 5) {
     grid-column: 1 / -2;
 }
 
-
-/* Single column display for phones */
+.article:nth-child(16n + 3) {
+    grid-column: 1 / -;
+}
 
 @media (max-width: 459px) {
     .archive {
         display: flex;
         flex-direction: column;
     }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.yolo {
+    padding: 7px;
+}
+
+.class {
+    padding: 20px;
+    outline-style: auto;
+    outline: #f6d55c;
 }
