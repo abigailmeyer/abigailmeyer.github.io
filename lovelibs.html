@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="madlibs.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
+    <script src="lovelibs.js" type="text/javascript"></script>
+    <title>LoveLibs</title>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+    <h1><a href="homepage.html">Love <br> Libs</a>
+        <br>
+        <!-- the button initially presented -->
+        <button class="open">Need Help?</button></h1>
+    <!-- the overlay of the popup button; controlling almost of the body -->
+    <div class="poverlay">
+        <!-- the content of the popup button -->
+        <div class="pcontent">
+            <h2 style="font-family: 'Nunito', sans-serif">Instructions</h2>
+            <p3>
+                <div class="list">
+                    <ul>
+                        <li>Verb: Action or state</li>
+                        <li>Noun: Person or thing</li>
+                        <li>Adjective: Describe a noun</li>
+                        <li>Adverb: Describes a Verb, adjective, or adverb</li>
+                        <li>Pronoun: replaces a noun</li>
+                        <li>Preposition: links a noun to another word</li>
+                        <li>Conjunction: Joins Clauses</li>
+                        <li>Interjection: short exclamation</li>
+                    </ul>
+                </div>
+            </p3>
+            <br>
+            <!-- the close button presented -->
+            <button class="close">Close</button> </div>
+    </div>
+    </div>
+    <br><br>
+    <div class="text">
+        <ul>
+            <li>Adjective #1: <input type="text" id="adjective1">
+                <li>Verb #1: <input type="text" id="verb1">
+                    <li>Verb #2: <input type="text" id="verb2">
+                        <li>Proper Name: <input type="text" id="propername">
+                            <li>Length of time: <input type="text" id="lengthoftime">
+                                <li>Body Part: <input type="text" id="bodypart">
+                                    <li>Exclamation: <input type="text" id="exclamation">
+                                        <li>comparison: <input type="text" id="comparison">
+                                            <li>Place: <input type="text" id="place">
+                                                <li>Adverb: <input type="text" id="adverb">
+                                                    <li>Noun #1: <input type="text" id="noun1">
+                                                        <li>Food: <input type="text" id="food">
+                                                            <li>Plural Animal: <input type="text" id="pluralanimal">
+                                                                <li>Noun #2: <input type="text" id="noun2">
+                                                                    <li>Number: <input type="text" id="number">
+                                                                        <li>Verb #3: <input type="text" id="verb3">
+                                                                            <li>Adjective #2: <input type="text" id="adjective2">
+                                                                                <li>Salutation: <input type="text" id="salutation">
+        </ul>
+    </div>
+    <div class="wrap">
+        <button style="align-content: center;" id="lib-button" class="btn">Lib it!</button>
+    </div>
+    <br>
+    <br>
+    <!-- this div is what is gonna create the story after the euser inputs all info. -->
+    <div class="last">
+        <div id="story2"></div>
+    </div>
+
+</body>
+
+</html>
