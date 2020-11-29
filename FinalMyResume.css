@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+    background-color: white;
+}
+
+.title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+}
+
+h1 {
+    background-image: url(https://media.giphy.com/media/2SYpZ92iLQsF6QZl5u/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: .75;
+    margin: 10px 0;
+    position: relative;
+    top: -140px;
+}
+
+.nav {
+    border: 1px solid black;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat";
+}
+
+
+/* Move nav bar to top of page */
+
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    top: 200px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
